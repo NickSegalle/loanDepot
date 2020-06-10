@@ -4,6 +4,8 @@ Create a powershell function or cmdlet that takes an arbitrarily long string par
 
 I also recorded the process for fun: [2020-06-09_19-48-17 - Loan Depot Assignment.mp4](https://github.com/NickSegalle/loanDepot/blob/master/2020-06-09_19-48-17%20-%20Loan%20Depot%20Assignment.mp4)
 
+The script: [Assignment.ps1](https://github.com/NickSegalle/loanDepot/blob/master/Assignment.ps1)
+
 Enjoy!
 
 ## Speed of command
