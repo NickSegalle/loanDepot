@@ -38,7 +38,7 @@ function Find-DuplicateCharacter {
     begin {
         # Create an empty hashtable and set an index variable for a loop...
         $TestCharHT = @{}
-        $Index      = 0
+        $Index      = 1
     }
     process {
         ForEach($Char in $foo)
