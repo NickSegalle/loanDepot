@@ -2,6 +2,8 @@
 
 Create a powershell function or cmdlet that takes an arbitrarily long string parameter $foo (e.g. 'abcdedcba') and returns the first recurring character in that Input string. In 'abcdedcba', 'd' would be the first recurring character, so the cmdlet/function should return 'd' for that sample input. Be mindful of the runtime of your solution.
 
+I also recorded the process just for fun.  Enjoy!
+
 ## Speed of command
 
 
