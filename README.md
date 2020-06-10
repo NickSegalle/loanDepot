@@ -4,6 +4,8 @@ Create a powershell function or cmdlet that takes an arbitrarily long string par
 
 ## Speed of command
 
+
+```
 PS F:\OneDrive\Scripts\Scripts\loanDepot> measure-command {Find-DuplicateCharacter -foo 'abcdedcba'}
 
 Found a duplicate character! The duplicate character was found in position:  5  and it's value is:  d
@@ -20,3 +22,4 @@ TotalHours        : 7.74388888888889E-07
 TotalMinutes      : 4.64633333333333E-05
 TotalSeconds      : 0.0027878
 TotalMilliseconds : 2.7878
+```
