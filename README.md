@@ -26,7 +26,7 @@ TotalMilliseconds : 2.7878
 
 ## Other method
 
-The other method would be to nest two for loops and compare each character one by one until you found a duplicate character.  This might be quicker, but it's not quite as pretty and would be trickier to accept a parameter from the pipeline.  I also had trouble finding the first duplicate character because if interpretted literally, the first duplicate character is 'a'...  ¯\\_(ツ)_/¯ 
+The other method would be to nest two for loops and compare each character one by one until you found a duplicate character.  This might be quicker, but it's not quite as pretty and would be trickier to accept a parameter from the pipeline.  I also had trouble finding the first duplicate character because if interpretted literally, the first duplicate character is 'a'...  ¯\\\_(ツ)\_/¯ 
 
 ### Here is the example: 
 
