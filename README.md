@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Nick Segalle's loanDepot assignment.
 
-You can use the [editor on GitHub](https://github.com/NickSegalle/loanDepot/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Create a powershell function or cmdlet that takes an arbitrarily long string parameter $foo (e.g. 'abcdedcba') and returns the first recurring character in that Input string. In 'abcdedcba', 'd' would be the first recurring character, so the cmdlet/function should return 'd' for that sample input. Be mindful of the runtime of your solution.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Speed of command
 
-### Markdown
+PS F:\OneDrive\Scripts\Scripts\loanDepot> measure-command {Find-DuplicateCharacter -foo 'abcdedcba'}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Found a duplicate character! The duplicate character was found in position:  5  and it's value is:  d
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NickSegalle/loanDepot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 2
+Ticks             : 27878
+TotalDays         : 3.22662037037037E-08
+TotalHours        : 7.74388888888889E-07
+TotalMinutes      : 4.64633333333333E-05
+TotalSeconds      : 0.0027878
+TotalMilliseconds : 2.7878
